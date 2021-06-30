@@ -1,0 +1,73 @@
+@import 'variables';
+
+
+header.header-top {
+    display: flex ; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    color: $white;
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+
+    @include gradient(125deg, $gradicolors);
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 32px;
+        width: 90%;
+        max-width: 1080px;
+        padding: 16px 0px;
+
+        
+        
+    }
+
+    .logo-area {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 14px;
+
+       
+
+        
+    }
+
+    .search-bar {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+
+        background-color: rgba($grey-light, 0.3);
+        border-radius: 5px;
+
+         svg {
+             width: 28px;
+             height: 28px;
+             margin: 0px 10px;
+         }
+         form {
+             width: 93%;
+         }
+         form input {
+             width: 100%;
+             max-width: 1080px;
+             height: 50px;
+             font-size: 16px;
+             color: $grey-light;
+
+             background: transparent;
+             border: none;
+
+             &:focus{
+                outline: none;
+            }
+         }
+    
+    }
+}

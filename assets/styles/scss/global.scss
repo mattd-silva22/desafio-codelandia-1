@@ -1,4 +1,6 @@
 @import 'variables';
+@import'navbar';
+@import 'main';
 
 
 * {
@@ -8,5 +10,6 @@
 
 
 body {
-    font-size: 62.5%;
+    background-color: $grey-light;
+    font-family: 'Lexend Deca', sans-serif;
 }

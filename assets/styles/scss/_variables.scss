@@ -9,7 +9,7 @@
 
 $primary: #574ae8;
 
-$gray-light: #f3f5f7;
+$grey-light: #f3f5f7;
 
 $white:#fff;
 
@@ -30,10 +30,10 @@ $direction: 125deg;
 
 
 @mixin gradient($direction, $gradicolors) { 
-    background: -webkit-linear-gradient($direction, $list);
-    background: -moz-linear-gradient($direction, $list);
-    background: -o-linear-gradient($direction, $list);
-    background: linear-gradient($direction, $list);  
+    background: -webkit-linear-gradient($direction, $gradicolors);
+    background: -moz-linear-gradient($direction, $gradicolors);
+    background: -o-linear-gradient($direction, $gradicolors);
+    background: linear-gradient($direction, $gradicolors);  
   }
 
 
