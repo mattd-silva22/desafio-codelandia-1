@@ -78,7 +78,7 @@ main .container {
 main article.card {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   background-color: #fff;
   color: #b6b6b6;
   border-radius: 5px;
@@ -93,6 +93,7 @@ main article.card .card-container {
   justify-content: center;
   flex-direction: column;
   padding: 28px;
+  width: 100%;
 }
 main article.card header {
   display: flex;
@@ -113,6 +114,11 @@ main article.card .top-area svg {
 main article.card .title-area {
   width: 100%;
   color: #313131;
+}
+main article.card main {
+  width: 100%;
+  display: flex;
+  justify-content: left;
 }
 
 * {

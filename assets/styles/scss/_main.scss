@@ -29,7 +29,7 @@
      article.card {
          display: flex;
          align-items: center;
-         justify-content: center;
+         justify-content: start;
 
          
 
@@ -60,6 +60,9 @@
             justify-content: center;
             flex-direction: column;
             padding: 28px;
+            width: 100%;
+
+            
             
          }
 
@@ -92,6 +95,14 @@
          .title-area {
             width: 100%;
             color: $title-color;
+            
+         }
+
+         main {
+             width: 100%;
+             
+             display: flex;
+             justify-content: left;
          }
      }
  }
