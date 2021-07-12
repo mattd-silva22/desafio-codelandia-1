@@ -44,7 +44,7 @@ getPostsFromApi().then( posts => posts.map( post => {
                             
                         </header>
 
-                        <main>
+                        <main class="description">
                             <p>
                             ${description}
                             </p>

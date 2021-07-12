@@ -9,6 +9,10 @@
 }
 
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: $grey-light;
     font-family: 'Lexend Deca', sans-serif;

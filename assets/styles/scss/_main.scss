@@ -26,6 +26,8 @@
          
      }
 
+     
+
      article.card {
          display: flex;
          align-items: center;
@@ -105,4 +107,8 @@
              justify-content: left;
          }
      }
+
+     #test-card {
+        display: none;
+    }
  }
